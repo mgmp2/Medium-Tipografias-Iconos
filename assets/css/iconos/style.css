@@ -19,6 +19,7 @@
   text-transform: none;
   line-height: 1;
   font-size: 28px;
+  text-decoration: none;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -41,6 +42,7 @@
 }
 .icon-facebook-circle:before {
   content: "\e902";
+  color: grey;
 }
 .icon-bubble:before {
   content: "\e96e";
@@ -53,4 +55,5 @@
 }
 .icon-twitter:before {
   content: "\ea96";
+  color: grey;
 }
