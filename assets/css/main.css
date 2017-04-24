@@ -1,0 +1,39 @@
+header {
+  position: relative;
+}
+
+nav {
+  top: 0;
+left: 0;
+width: 100%;
+height: 49px;
+margin-top: 0;
+position: fixed;
+padding-top: 0px;
+background: none;
+background-color: white;
+transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+}
+
+#box-header {
+  height: 100%;
+  margin: auto 10%;
+  position: relative;
+}
+#box-header > span {
+  color: #02B875;
+  right: 0;
+  position: absolute;
+  margin: 1% auto;
+}
+
+.box-container {
+  margin: 6% 21%;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  border-top: 5px solid gray;
+  bottom: 0;
+  left: 0;
+}
