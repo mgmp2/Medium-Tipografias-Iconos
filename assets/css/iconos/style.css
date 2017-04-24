@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?r532ie');
+  src:  url('fonts/icomoon.eot?r532ie#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?r532ie') format('truetype'),
+    url('fonts/icomoon.woff?r532ie') format('woff'),
+    url('fonts/icomoon.svg?r532ie#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 28px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e905";
+  color: #02B875;
+}
+.icon-comment:before {
+  content: "\e904";
+}
+.icon-bookmark:before {
+  content: "\e903";
+}
+.icon-medium:before {
+  content: "\e900";
+  color: #02B875;
+  padding-right: 20px;
+}
+.icon-facebook-circle:before {
+  content: "\e902";
+}
+.icon-bubble:before {
+  content: "\e96e";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-bookmark-fill:before {
+  content: "\e9d2";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
